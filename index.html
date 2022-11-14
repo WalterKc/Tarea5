@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>tarea 5</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=GFS+Didot">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<main>
+  
+</main>
+
+<body>
+  <header>
+    <h1 id="texto_cambio">EJERCICIO 5</h1>
+    
+    <form>
+      <ul>
+      <li>    
+      <label for="name">Nombre:</label>
+      <input type="text" id="nombre" placeholder="aqui va el nombre" />
+      </li>
+      <li>    
+        <label for="sueldo">sueldo anual:</label>
+        <input type="number" id="sueldo" placeholder="aqui va el sueldo" />
+      </li>
+      <li>    
+        <label for="sueldo">dias/sem:</label>
+        <input type="number" id="dias" placeholder="¿cuantos dias trabajas a la semana?" />
+      </li>
+      <li>    
+        <label for="sueldo">horas/dia:</label>
+        <input type="number" id="horas" placeholder="¿cuantas horas trabajas al dia?" />
+      </li>
+      <li>    
+        <!--<label for="sueldo">sueldo:</label>-->
+        <input type="button" id="un_botoncito_diferente"  value="un boton diferente"/>
+        <button id="un_boton" onClick="test()">un boton</button>
+        <button onClick="alert('¡Hola, señor!')">otro boton</button>
+        <button id="otro_boton" >otro boton mas</button>
+        <button id="un_botoncito" >un botoncito</button>
+        <button id="un_botoncito_mas" >un botoncito mas</button>
+      </li>
+      <li>
+        <label for="opciones_sueldo" >elige una opcion</label>
+        <select name="array_flags" id="array_flags">
+          <option  id="año">mes</option>
+          <option  id="mes">dia</option>
+          <option  id="dia">hora</option>
+        </select>
+      </li>
+      <li>    
+        <!--<label for="sueldo">sueldo:</label>-->
+        <input type="button" id="boton_test"  value="test sueldo" 
+        onClick="H2.innerHTML=nombre.value + ' combra al '+ array_flags.value + ' $ ' +(calcular_salario(flags_selector()[0],flags_selector()[1],flags_selector()[2]
+        ,Number(sueldo.value),Number(dias_trabajados.value),Number(horas_trabajadas.value)))"/>
+        
+      </li>
+  </ul>
+      
+    </form>
+  <h2>hola, este es un pequeño programa que calcula cuanto combra alguien al mes(dia/hora, depende de que se selecione</h2>
+  <h2>primero hay que seleccionar el sueldo anual, luego el tipo de calculo que se quiere (mes,dia,hora)
+    y luego, si se requiere, los dias trabajados a la semana y las horas al dia
+  </h2>
+  <h2 id="texto_que_cambia">NOMBRE cobra al SELECCION , X cantidad de dinero</h2>
+  </header>
+
+  
+  </footer>
+
+  <script src="js/tarea.js"></script>
+</body>
+</html>
