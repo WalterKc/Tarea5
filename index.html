@@ -35,15 +35,15 @@
         <label for="sueldo">horas/dia:</label>
         <input type="number" id="horas" placeholder="¿cuantas horas trabajas al dia?" />
       </li>
-      <li>    
+      <!--<li>-->    
         <!--<label for="sueldo">sueldo:</label>-->
-        <input type="button" id="un_botoncito_diferente"  value="un boton diferente"/>
-        <button id="un_boton" onClick="test()">un boton</button>
-        <button onClick="alert('¡Hola, señor!')">otro boton</button>
-        <button id="otro_boton" >otro boton mas</button>
-        <button id="un_botoncito" >un botoncito</button>
-        <button id="un_botoncito_mas" >un botoncito mas</button>
-      </li>
+        <!--<input type="button" id="un_botoncito_diferente"  value="un boton diferente"/>-->
+        <!--<button id="un_boton" onClick="test()">un boton</button>-->
+        <!--<button onClick="alert('¡Hola, señor!')">otro boton</button>-->
+        <!--<button id="otro_boton" >otro boton mas</button>-->
+        <!--<button id="un_botoncito" >un botoncito</button>-->
+        <!--<button id="un_botoncito_mas" >un botoncito mas</button>-->
+      <!--</li>-->
       <li>
         <label for="opciones_sueldo" >elige una opcion</label>
         <select name="array_flags" id="array_flags">
@@ -54,7 +54,7 @@
       </li>
       <li>    
         <!--<label for="sueldo">sueldo:</label>-->
-        <input type="button" id="boton_test"  value="test sueldo" 
+        <input type="button" id="boton_test"  value="calcular salario" 
         onClick="H2.innerHTML=nombre.value + ' combra al '+ array_flags.value + ' $ ' +(calcular_salario(flags_selector()[0],flags_selector()[1],flags_selector()[2]
         ,Number(sueldo.value),Number(dias_trabajados.value),Number(horas_trabajadas.value)))"/>
         
@@ -62,7 +62,7 @@
   </ul>
       
     </form>
-  <h2>hola, este es un pequeño programa que calcula cuanto combra alguien al mes(dia/hora, depende de que se selecione</h2>
+  <h2>hola, este es un pequeño programa que calcula cuanto cobra alguien al mes(dia/hora, depende de que se selecione</h2>
   <h2>primero hay que seleccionar el sueldo anual, luego el tipo de calculo que se quiere (mes,dia,hora)
     y luego, si se requiere, los dias trabajados a la semana y las horas al dia
   </h2>
