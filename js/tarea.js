@@ -21,6 +21,7 @@ function calcular_salario(mensual,diario,hora,salario,dias_trabajados_semana,hor
 //let test=document.querySelector("#name")
 //let test2=Number(test.value)
 //test2
+/*
 const test3=document.querySelector("#un_boton")
 test3.onClick=function(){
     alert("desu")
@@ -48,6 +49,7 @@ let test6=document.querySelector("#un_botoncito_diferente")
 test6.onclick=function(){
     alert("desu")
 };
+*/
 // ok, aca tenemos muchas formas de llamar a un boton con js(y aplicarle codigo)
 //todos son intercambiables , por lo que, si queres en el input directamente la funcion test()
 //mandale el onClick alla(en html, si va con mayuscula), creo que es lo mas facil(a menos por ahora), aca solo hice todas para que quede claro
